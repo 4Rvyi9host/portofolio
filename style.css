@@ -1411,6 +1411,13 @@ a.contact-info-item:hover {
   transform: translateX(4px);
 }
 
+.footer-link svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  stroke-width: 2;
+}
+
 .footer-bottom {
   display: flex;
   align-items: center;

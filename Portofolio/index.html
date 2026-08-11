@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio pribadi Muhammad Ar Rafi Saifuddin — Mahasiswa Sistem Informasi UBSI, IT Support &amp; Database Administrator bersertifikat BNSP." />
+  <meta name="keywords" content="portfolio, IT support, sistem informasi, database administrator, BNSP, web developer, Indonesia" />
+  <meta property="og:title" content="Muhammad Ar Rafi Saifuddin — IT Support &amp; SI Student" />
+  <meta property="og:description" content="Portfolio pribadi — menampilkan keahlian IT Support, Database Administration, dan perjalanan akademik serta profesional saya." />
+  <title>Muhammad Ar Rafi Saifuddin — IT Support &amp; SI Student</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Navigasi utama">
+      <a href="#hero" class="nav-logo" aria-label="Kembali ke atas">
+        <span class="logo-mark">RA</span>
+        <span class="logo-text">Muhammad Ar Rafi Saifuddin</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about" class="nav-link">Tentang</a></li>
+        <li><a href="#projects" class="nav-link">Proyek</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Ganti tema" title="Ganti tema">
+          <i data-lucide="sun" class="icon-sun"></i>
+          <i data-lucide="moon" class="icon-moon"></i>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Perkenalan">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-container">
+
+        <div class="hero-badge" data-animate="fade-up" data-delay="0">
+          <span class="badge-dot" aria-hidden="true"></span>
+          Tersedia untuk peluang kerja &amp; magang
+        </div>
+
+        <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+          Halo, saya
+          <span class="hero-name">Muhammad Ar Rafi Saifuddin</span>
+        </h1>
+
+        <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+          <span class="typing-wrapper">
+            <span class="typing-text" id="typing-text"></span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </span>
+        </p>
+
+        <p class="hero-desc" data-animate="fade-up" data-delay="300">
+          Mahasiswa Sistem Informasi semester 6 Universitas Bina Sarana Informatika (UBSI),
+          IT Support &amp; Database Administrator bersertifikat BNSP.
+        </p>
+
+        <div class="hero-actions" data-animate="fade-up" data-delay="400">
+          <a href="#projects" class="btn btn-primary" id="hero-cta-projects">
+            Lihat Karya Saya
+          </a>
+          <a href="#contact" class="btn btn-ghost" id="hero-cta-contact">
+            Hubungi Saya
+          </a>
+        </div>
+
+        <div class="hero-scroll-hint" data-animate="fade-up" data-delay="600" aria-hidden="true">
+          <span class="scroll-line"></span>
+          <span class="scroll-label">Scroll</span>
+        </div>
+      </div>
+
+      <!-- Decorative shapes -->
+      <div class="hero-deco hero-deco--1" aria-hidden="true"></div>
+      <div class="hero-deco hero-deco--2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-label">01 — Tentang Saya</span>
+          <h2 class="section-title" id="about-heading">Cerita di Balik Layar</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-col" data-animate="fade-right">
+            <div class="about-image-wrapper">
+              <div class="about-image-frame" aria-label="Foto profil Muhammad Ar Rafi Saifuddin">
+                <div class="about-avatar-placeholder" role="img" aria-label="Foto profil">
+                  <div class="avatar-initials">RA</div>
+                  <div class="avatar-ring avatar-ring--1" aria-hidden="true"></div>
+                  <div class="avatar-ring avatar-ring--2" aria-hidden="true"></div>
+                </div>
+              </div>
+              <div class="about-image-badge" aria-hidden="true">
+                <span class="badge-year">3+</span>
+                <span class="badge-desc">Tahun Belajar IT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content-col" data-animate="fade-left">
+            <p class="about-lead">
+              Mahasiswa Sistem Informasi semester 6 di <em>Universitas Bina Sarana Informatika</em>
+              dengan fokus pada <em>IT Support</em>, <em>Database Administration</em>, dan <em>Data Mining</em>.
+            </p>
+            <p class="about-body">
+              Latar belakang saya berasal dari SMK Teknik Komputer &amp; Jaringan, yang memberi fondasi
+              kuat di bidang hardware, software, dan troubleshooting. Kini saya mengembangkan keahlian
+              di bidang sistem basis data dan riset akademik — aktif mempublikasikan jurnal ilmiah nasional.
+            </p>
+            <p class="about-body">
+              Bersertifikat Database Administrator oleh BNSP dan Uji Kompetensi Berbasis Industri PHP
+              Indonesia Community. Berkomitmen untuk terus berkontribusi di dunia teknologi informasi.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Sertifikasi Profesional</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Publikasi Jurnal Nasional</span>
+              </div>
+            </div>
+            <div class="skills-section">
+              <h3 class="skills-title">Kemampuan Utama</h3>
+              <div class="skills-grid">
+                <span class="skill-badge" id="skill-itsupport">IT Support</span>
+                <span class="skill-badge" id="skill-hardware">Hardware &amp; Software Troubleshooting</span>
+                <span class="skill-badge" id="skill-dba">Database Administration</span>
+                <span class="skill-badge" id="skill-uiux">UI/UX Design</span>
+                <span class="skill-badge" id="skill-datamining">Data Mining</span>
+                <span class="skill-badge" id="skill-mysql">MySQL</span>
+                <span class="skill-badge" id="skill-php">PHP</span>
+                <span class="skill-badge" id="skill-office">Microsoft Office</span>
+                <span class="skill-badge" id="skill-orange">Orange Data Mining</span>
+                <span class="skill-badge" id="skill-python">Python</span>
+                <span class="skill-badge" id="skill-git">Git &amp; GitHub</span>
+                <span class="skill-badge" id="skill-figma">Figma</span>
+                <span class="skill-badge" id="skill-nodejs">Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PROJECTS SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="projects section section--alt" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-label">02 — Proyek</span>
+          <h2 class="section-title" id="projects-heading">Karya Terpilih</h2>
+          <p class="section-desc">Beberapa proyek yang paling berkesan dalam perjalanan saya.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Riset Data Mining -->
+          <article class="project-card project-card--featured" data-animate="fade-up" data-delay="0" id="project-datamining">
+            <div class="project-card-image">
+              <div class="project-placeholder-img project-placeholder-img--1" role="img" aria-label="Riset Algoritma C4.5 dan Naive Bayes">
+                <div class="project-img-overlay" aria-hidden="true"></div>
+                <span class="project-category-tag" aria-label="Kategori">Publikasi Ilmiah</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Riset: C4.5 vs Naive Bayes — Klasifikasi Jamur</h3>
+              <p class="project-desc">
+                Analisis perbandingan algoritma C4.5 dan Naive Bayes dalam mengenali spesies jamur beracun.
+                Dipublikasikan di jurnal nasional JITET Universitas Lampung Vol. 14 No. 2 (2026).
+                C4.5 mencapai akurasi 98,5% dengan metode 10-fold cross validation menggunakan Orange Data Mining.
+              </p>
+              <div class="project-stack">
+                <span class="stack-tag">Orange Data Mining</span>
+                <span class="stack-tag">Data Mining</span>
+                <span class="stack-tag">C4.5</span>
+                <span class="stack-tag">Naive Bayes</span>
+              </div>
+              <div class="project-links">
+                <a href="https://doi.org/10.23960/jitet.v14i2.9084" target="_blank" rel="noopener noreferrer" class="project-link project-link--demo" id="link-datamining-doi" aria-label="DOI Jurnal JITET">
+                  <i data-lucide="external-link"></i> Lihat Jurnal
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Database Administration -->
+          <article class="project-card" data-animate="fade-up" data-delay="100" id="project-dba">
+            <div class="project-card-image">
+              <div class="project-placeholder-img project-placeholder-img--2" role="img" aria-label="Database Administration">
+                <div class="project-img-overlay" aria-hidden="true"></div>
+                <span class="project-category-tag" aria-label="Kategori">Database</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Database Administration &amp; Management</h3>
+              <p class="project-desc">
+                Pengelolaan dan administrasi basis data relasional, mencakup desain skema, query optimization,
+                backup &amp; recovery, serta user management. Tersertifikasi Database Administrator oleh BNSP.
+              </p>
+              <div class="project-stack">
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">SQL</span>
+                <span class="stack-tag">BNSP Certified</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: IT Support PKL -->
+          <article class="project-card" data-animate="fade-up" data-delay="200" id="project-itsupport">
+            <div class="project-card-image">
+              <div class="project-placeholder-img project-placeholder-img--3" role="img" aria-label="IT Support Troubleshooting">
+                <div class="project-img-overlay" aria-hidden="true"></div>
+                <span class="project-category-tag" aria-label="Kategori">IT Support</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Praktik Kerja Lapangan — Teknisi Komputer</h3>
+              <p class="project-desc">
+                Melakukan troubleshooting software &amp; hardware, perawatan berkala perangkat komputer,
+                serta instalasi aplikasi dan sistem operasi untuk pelanggan toko service komputer.
+              </p>
+              <div class="project-stack">
+                <span class="stack-tag">Hardware</span>
+                <span class="stack-tag">Troubleshooting</span>
+                <span class="stack-tag">OS Installation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: PHP & Web Dev -->
+          <article class="project-card" data-animate="fade-up" data-delay="300" id="project-phpdev">
+            <div class="project-card-image">
+              <div class="project-placeholder-img project-placeholder-img--4" role="img" aria-label="PHP Web Development">
+                <div class="project-img-overlay" aria-hidden="true"></div>
+                <span class="project-category-tag" aria-label="Kategori">Web Dev</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Pengembangan Aplikasi Berbasis PHP</h3>
+              <p class="project-desc">
+                Pengembangan aplikasi web menggunakan PHP dengan pengelolaan basis data MySQL.
+                Tersertifikasi Uji Kompetensi Berbasis Industri PHP Indonesia Community (PHPID)
+                bekerja sama dengan Universitas BSI — predikat BAIK.
+              </p>
+              <div class="project-stack">
+                <span class="stack-tag">PHP</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">PHPID Certified</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EXPERIENCE / EDUCATION SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="experience section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-label">03 — Perjalanan</span>
+          <h2 class="section-title" id="experience-heading">Pendidikan &amp; Pengalaman</h2>
+        </div>
+
+        <div class="timeline-tabs" data-animate="fade-up" role="tablist" aria-label="Kategori perjalanan">
+          <button class="tab-btn tab-btn--active" id="tab-education" role="tab" aria-selected="true" aria-controls="panel-education" data-tab="education">
+            Pendidikan
+          </button>
+          <button class="tab-btn" id="tab-experience" role="tab" aria-selected="false" aria-controls="panel-experience" data-tab="experience">
+            Organisasi &amp; Pengalaman
+          </button>
+        </div>
+
+        <!-- Education Panel -->
+        <div class="timeline-panel" id="panel-education" role="tabpanel" aria-labelledby="tab-education">
+          <div class="timeline">
+
+            <div class="timeline-item" data-animate="fade-left">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">2023 — Sekarang</span>
+                  <span class="timeline-badge">Aktif</span>
+                </div>
+                <h3 class="timeline-title">S1 Sistem Informasi</h3>
+                <p class="timeline-place">Universitas Bina Sarana Informatika (UBSI)</p>
+                <p class="timeline-desc">
+                  Semester 6, fokus pada IT Support, Database Administration, dan riset data mining.
+                  Aktif dalam kegiatan akademik, publikasi ilmiah, dan pengembangan kompetensi profesional.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Sistem Informasi</span>
+                  <span class="timeline-tag">Database</span>
+                  <span class="timeline-tag">Data Mining</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-animate="fade-left" data-delay="100">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">2020 — 2023</span>
+                </div>
+                <h3 class="timeline-title">SMK — Teknik Komputer &amp; Jaringan</h3>
+                <p class="timeline-place">SMK Prestasi Prima</p>
+                <p class="timeline-desc">
+                  Lulus dari jurusan Teknik Komputer &amp; Jaringan (TKJ). Mendapat fondasi kuat
+                  di bidang hardware, networking, dan sistem operasi.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">TKJ</span>
+                  <span class="timeline-tag">Networking</span>
+                  <span class="timeline-tag">Hardware</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Experience Panel -->
+        <div class="timeline-panel timeline-panel--hidden" id="panel-experience" role="tabpanel" aria-labelledby="tab-experience">
+          <div class="timeline">
+
+            <div class="timeline-item" data-animate="fade-left">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">April 2022 — Juni 2022</span>
+                </div>
+                <h3 class="timeline-title">Praktik Kerja Lapangan (PKL) — Teknisi Komputer</h3>
+                <p class="timeline-place">Toko Service Komputer</p>
+                <p class="timeline-desc">
+                  Melakukan troubleshooting permasalahan software dan hardware pada laptop dan komputer pelanggan.
+                  Melakukan perawatan berkala perangkat komputer serta membantu proses instalasi aplikasi dan sistem operasi.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">IT Support</span>
+                  <span class="timeline-tag">Hardware</span>
+                  <span class="timeline-tag">Troubleshooting</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-animate="fade-left" data-delay="100">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">Maret 2026 — Maret 2029</span>
+                  <span class="timeline-badge">Aktif</span>
+                </div>
+                <h3 class="timeline-title">Database Administrator — Sertifikat Kompetensi BNSP</h3>
+                <p class="timeline-place">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                <p class="timeline-desc">
+                  Memperoleh sertifikat kompetensi resmi Database Administrator dari BNSP.
+                  Berlaku hingga Maret 2029.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">BNSP</span>
+                  <span class="timeline-tag">Database</span>
+                  <span class="timeline-tag">Sertifikasi Nasional</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-animate="fade-left" data-delay="200">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">30 Juli 2024</span>
+                </div>
+                <h3 class="timeline-title">Uji Kompetensi Berbasis Industri — PHP Indonesia Community</h3>
+                <p class="timeline-place">PHPID Community &times; Universitas BSI</p>
+                <p class="timeline-desc">
+                  Lulus uji kompetensi bidang Sistem Basis Data dari PHP Indonesia Community
+                  bekerja sama dengan Universitas BSI. Predikat: <strong>BAIK</strong>.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">PHP</span>
+                  <span class="timeline-tag">Basis Data</span>
+                  <span class="timeline-tag">Industri</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-animate="fade-left" data-delay="300">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-period">2026</span>
+                </div>
+                <h3 class="timeline-title">Publikasi Jurnal Nasional — JITET Universitas Lampung</h3>
+                <p class="timeline-place">Jurnal Informatika dan Teknik Elektro Terapan (JITET), Vol. 14 No. 2</p>
+                <p class="timeline-desc">
+                  Co-author dalam publikasi ilmiah bertopik analisis perbandingan algoritma C4.5 dan Naive Bayes
+                  dalam mengenali spesies jamur beracun. DOI: 10.23960/jitet.v14i2.9084. ISSN 2830-7062.
+                </p>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Data Mining</span>
+                  <span class="timeline-tag">Publikasi Ilmiah</span>
+                  <span class="timeline-tag">JITET</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="contact section section--alt" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-label">04 — Kontak</span>
+          <h2 class="section-title" id="contact-heading">Mari Berkolaborasi</h2>
+          <p class="section-desc">
+            Punya proyek menarik atau sekadar ingin ngobrol soal teknologi?
+            Jangan ragu untuk menghubungi saya!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info" data-animate="fade-right">
+            <div class="contact-info-items">
+              <a href="mailto:pihlloi7@gmail.com" class="contact-info-item" id="contact-email" aria-label="Email Rafi">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div>
+                  <span class="contact-info-label">Email</span>
+                  <span class="contact-info-value">pihlloi7@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+6282211948634" class="contact-info-item" id="contact-phone" aria-label="Telepon Rafi">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div>
+                  <span class="contact-info-label">Telepon / WhatsApp</span>
+                  <span class="contact-info-value">+62 822-1194-8634</span>
+                </div>
+              </a>
+              <div class="contact-info-item" id="contact-location" aria-label="Lokasi Rafi">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <span class="contact-info-label">Lokasi</span>
+                  <span class="contact-info-value">Setu, Cipayung, Jakarta Timur 🇮🇩</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <p class="social-title">Temukan saya di</p>
+              <div class="social-icons">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" id="social-github" aria-label="GitHub Muhammad Ar Rafi Saifuddin">
+                  <i data-lucide="github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" id="social-linkedin" aria-label="LinkedIn Muhammad Ar Rafi Saifuddin">
+                  <i data-lucide="linkedin"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" id="social-instagram" aria-label="Instagram Muhammad Ar Rafi Saifuddin">
+                  <i data-lucide="instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap" data-animate="fade-left">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Form kontak">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Nama Lengkap <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="form-name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Budi Santoso"
+                    autocomplete="name"
+                    required
+                    aria-required="true"
+                    aria-describedby="form-name-error"
+                  />
+                  <span class="form-error" id="form-name-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email <span aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="form-email"
+                    name="email"
+                    class="form-input"
+                    placeholder="budi@example.com"
+                    autocomplete="email"
+                    required
+                    aria-required="true"
+                    aria-describedby="form-email-error"
+                  />
+                  <span class="form-error" id="form-email-error" role="alert" aria-live="polite"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subjek</label>
+                <input
+                  type="text"
+                  id="form-subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="Misal: Kolaborasi Proyek Web"
+                  autocomplete="off"
+                  aria-describedby="form-subject-error"
+                />
+                <span class="form-error" id="form-subject-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="form-message" class="form-label">Pesan <span aria-hidden="true">*</span></label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Ceritakan proyek atau ide Anda..."
+                  rows="5"
+                  required
+                  aria-required="true"
+                  aria-describedby="form-message-error"
+                ></textarea>
+                <span class="form-error" id="form-message-error" role="alert" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+                <span class="btn-text">Kirim Pesan</span>
+                <i data-lucide="send" class="btn-icon" aria-hidden="true"></i>
+              </button>
+
+              <div class="form-success" id="form-success" role="status" aria-live="polite">
+                <i data-lucide="check-circle" aria-hidden="true"></i>
+                <span>Pesan berhasil dikirim! Saya akan segera membalas.</span>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo footer-logo" aria-label="Kembali ke atas">
+            <span class="logo-mark">RA</span>
+            <span class="logo-text">Muhammad Ar Rafi Saifuddin</span>
+          </a>
+          <p class="footer-tagline">
+            Membangun pengalaman digital yang bermakna, satu baris kode pada satu waktu.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4 class="footer-links-title">Navigasi</h4>
+          <ul role="list">
+            <li><a href="#about" class="footer-link">Tentang</a></li>
+            <li><a href="#projects" class="footer-link">Proyek</a></li>
+            <li><a href="#experience" class="footer-link">Pengalaman</a></li>
+            <li><a href="#contact" class="footer-link">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4 class="footer-links-title">Kontak</h4>
+          <ul role="list">
+            <li><a href="mailto:pihlloi7@gmail.com" class="footer-link" id="footer-email">pihlloi7@gmail.com</a></li>
+            <li><a href="tel:+6282211948634" class="footer-link" id="footer-phone">+62 822-1194-8634</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-github">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-linkedin">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="footer-year"></span> Muhammad Ar Rafi Saifuddin. Dibuat dengan <span aria-label="cinta">♥</span> menggunakan HTML, CSS &amp; JS.
+        </p>
+        <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+          <i data-lucide="arrow-up" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -808,6 +808,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-4);
 }
 
+.skills-section--soft {
+  margin-top: var(--space-6);
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;

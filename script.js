@@ -139,11 +139,11 @@ if (footerYear) footerYear.textContent = new Date().getFullYear();
   if (!el) return;
 
   const phrases = [
-    'Sistem Informasi Student',
-    'Web Developer',
+    'Mahasiswa Sistem Informasi',
+    'IT Support Enthusiast',
+    'Database Administrator',
     'UI/UX Enthusiast',
-    'Problem Solver',
-    'Open Source Contributor',
+    'Data Mining Researcher',
   ];
 
   let phraseIdx  = 0;
